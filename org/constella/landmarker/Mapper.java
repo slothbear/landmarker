@@ -52,7 +52,8 @@ public class Mapper {
             RegionReport rr = (RegionReport) me.getValue() ;
             System.out.println("mapping: " + name) ;
             RenderedImage rendImage = createImage(rr) ;
-            File file = new File(name + ".jpg") ;
+            File file = new File("maps/" + name + ".jpg") ;
+ 
             try {
                 ImageIO.write(rendImage, "jpg", file) ;
                 // ImageIO.write(rendImage, "png", new File(name + ".png")) ;
@@ -63,8 +64,7 @@ public class Mapper {
             }
             
             rendImage = ownerImage(rr) ;
-            file = new File(name + "Owners.jpg") ;
-            file = new File(name + "Owners.jpg") ;
+            file = new File("maps/" + name + "Owners.jpg") ;
             try {
                 ImageIO.write(rendImage, "jpg", file) ;
                 // ImageIO.write(rendImage, "png", new File(name + "Owners.png")) ;
