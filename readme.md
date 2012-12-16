@@ -9,7 +9,7 @@ Overview
 
 This program consists of two phases:
 
-1. Scripts the run in Second Life to collect region map data and send them out via e-mail.
+1. Scripts that run in Second Life to collect region map data and send them out via e-mail.
 
 2. Java programs that access the email (via IMAP) and construct a beauteous map (JPG).
 
@@ -17,7 +17,7 @@ This program consists of two phases:
 Operation
 ---------
 
-* Update the LSL script and Java program to point to your email box.
+* Update the **LSL** script and Java programs to point to your email box.
 
 * Place the three .LSL scripts in an object, and run in the region you'd like to map.
 
