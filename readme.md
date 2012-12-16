@@ -3,7 +3,6 @@ Second Life region maps
 
 Take a look in the maps directory for some pre-generated examples.
 
----
 
 Overview
 --------
@@ -14,7 +13,6 @@ This program consists of two phases:
 
 2. Java programs that access the email (via IMAP) and construct a beauteous map (JPG).
 
----
 
 Operation
 ---------
